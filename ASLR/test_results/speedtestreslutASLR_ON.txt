@@ -1,0 +1,263 @@
+badApp64
+abc
+0.000002
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+a*10
+0.000001
+
+real	0m0,014s
+user	0m0,005s
+sys	0m0,005s
+
+a*100
+0.000002
+
+real	0m0,015s
+user	0m0,008s
+sys	0m0,001s
+
+a*200
+0.000001
+
+real	0m0,021s
+user	0m0,009s
+sys	0m0,000s
+
+a*300
+0.000001
+
+real	0m0,013s
+user	0m0,009s
+sys	0m0,000s
+
+a*498
+0.000001
+
+real	0m0,020s
+user	0m0,009s
+sys	0m0,001s
+
+
+badApp64fortify
+abc
+0.000003
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,000s
+
+a*10
+0.000004
+
+real	0m0,010s
+user	0m0,008s
+sys	0m0,000s
+
+a*100
+0.000003
+
+real	0m0,017s
+user	0m0,008s
+sys	0m0,000s
+
+a*200
+0.000003
+
+real	0m0,023s
+user	0m0,008s
+sys	0m0,000s
+
+a*300
+0.000003
+
+real	0m0,009s
+user	0m0,008s
+sys	0m0,000s
+
+a*498
+0.000003
+
+real	0m0,019s
+user	0m0,004s
+sys	0m0,004s
+
+
+badApp64NX
+abc
+0.000001
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,001s
+
+a*10
+0.000001
+
+real	0m0,009s
+user	0m0,008s
+sys	0m0,000s
+
+a*100
+0.000001
+
+real	0m0,020s
+user	0m0,004s
+sys	0m0,004s
+
+a*200
+0.000001
+
+real	0m0,009s
+user	0m0,004s
+sys	0m0,004s
+
+a*300
+0.000001
+
+real	0m0,017s
+user	0m0,000s
+sys	0m0,008s
+
+a*498
+0.000001
+
+real	0m0,013s
+user	0m0,004s
+sys	0m0,004s
+
+
+badApp64pie
+abc
+0.000001
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,000s
+
+a*10
+0.000001
+
+real	0m0,018s
+user	0m0,008s
+sys	0m0,000s
+
+a*100
+0.000001
+
+real	0m0,012s
+user	0m0,008s
+sys	0m0,000s
+
+a*200
+0.000001
+
+real	0m0,011s
+user	0m0,008s
+sys	0m0,000s
+
+a*300
+0.000001
+
+real	0m0,019s
+user	0m0,004s
+sys	0m0,004s
+
+a*498
+0.000001
+
+real	0m0,012s
+user	0m0,008s
+sys	0m0,000s
+
+
+badApp64relro
+abc
+0.000001
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+
+a*10
+0.000001
+
+real	0m0,016s
+user	0m0,008s
+sys	0m0,000s
+
+a*100
+0.000001
+
+real	0m0,015s
+user	0m0,009s
+sys	0m0,000s
+
+a*200
+0.000001
+
+real	0m0,016s
+user	0m0,008s
+sys	0m0,000s
+
+a*300
+0.000002
+
+real	0m0,017s
+user	0m0,009s
+sys	0m0,000s
+
+a*498
+0.000001
+
+real	0m0,018s
+user	0m0,009s
+sys	0m0,000s
+
+
+badApp64SP
+abc
+0.000001
+
+real	0m0,006s
+user	0m0,000s
+sys	0m0,000s
+
+a*10
+0.000002
+
+real	0m0,019s
+user	0m0,006s
+sys	0m0,003s
+
+a*100
+0.000001
+
+real	0m0,018s
+user	0m0,008s
+sys	0m0,000s
+
+a*200
+0.000002
+
+real	0m0,011s
+user	0m0,000s
+sys	0m0,008s
+
+a*300
+0.000002
+
+real	0m0,010s
+user	0m0,008s
+sys	0m0,000s
+
+a*498
+0.000002
+
+real	0m0,018s
+user	0m0,004s
+sys	0m0,004s
+

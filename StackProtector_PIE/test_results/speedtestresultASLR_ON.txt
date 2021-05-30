@@ -1,0 +1,132 @@
+vuln
+Enter password:
+
+You have logged successfully
+Flag 1
+0.011132
+
+real	0m0,013s
+user	0m0,011s
+sys	0m0,000s
+
+vulnCLANG
+Enter password:
+
+You have logged successfully
+Flag 1
+0.007934
+
+real	0m0,009s
+user	0m0,009s
+sys	0m0,000s
+
+vuln_withPie
+Enter password:
+
+You have logged successfully
+Flag 1
+0.021095
+
+real	0m0,022s
+user	0m0,003s
+sys	0m0,006s
+
+vulnCLANGpicpie
+Enter password:
+
+You have logged successfully
+Flag 1
+0.007231
+
+real	0m0,008s
+user	0m0,008s
+sys	0m0,000s
+
+vuln_withStackProtector
+Enter password:
+
+You have logged successfully
+Flag 1
+0.015249
+
+real	0m0,019s
+user	0m0,008s
+sys	0m0,000s
+
+vulnCLANGstackprotector
+Enter password:
+
+You have logged successfully
+Flag 1
+0.010439
+
+real	0m0,014s
+user	0m0,007s
+sys	0m0,003s
+
+vuln_withRelro
+Enter password:
+
+You have logged successfully
+Flag 1
+0.023645
+
+real	0m0,026s
+user	0m0,007s
+sys	0m0,006s
+
+vulnCLANGrelro
+Enter password:
+
+You have logged successfully
+Flag 1
+0.016211
+
+real	0m0,022s
+user	0m0,010s
+sys	0m0,002s
+
+vuln_withFortify
+Enter password:
+
+You have logged successfully
+Flag 1
+0.022413
+
+real	0m0,024s
+user	0m0,009s
+sys	0m0,000s
+
+vulnCLANGfortify
+Enter password:
+
+You have logged successfully
+Flag 1
+0.008212
+
+real	0m0,009s
+user	0m0,005s
+sys	0m0,004s
+
+secureVuln
+Enter password:
+
+You have logged successfully
+Flag 1
+0.016448
+
+real	0m0,020s
+user	0m0,008s
+sys	0m0,000s
+
+secureVulnCLANG
+Enter password:
+
+You have logged successfully
+Flag 1
+0.007907
+
+real	0m0,009s
+user	0m0,004s
+sys	0m0,005s
+

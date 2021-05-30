@@ -1,0 +1,87 @@
+vuln
+
+real	0m0,080s
+user	0m0,038s
+sys	0m0,014s
+
+vuln_withStackProtector
+
+real	0m0,089s
+user	0m0,034s
+sys	0m0,021s
+
+vuln_withPie
+
+real	0m0,077s
+user	0m0,025s
+sys	0m0,023s
+
+vuln_withRelro
+
+real	0m0,051s
+user	0m0,027s
+sys	0m0,008s
+
+vuln_withFortify
+vuln.c: In function ‘loginTry’:
+vuln.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+   20 |  scanf("%s", word);
+      |  ^~~~~~~~~~~~~~~~~
+
+real	0m0,081s
+user	0m0,045s
+sys	0m0,005s
+
+vulnCLANG
+
+real	0m0,062s
+user	0m0,021s
+sys	0m0,024s
+
+vulnCLANGstackprotector
+
+real	0m0,061s
+user	0m0,027s
+sys	0m0,018s
+
+vulnCLANGpicpie
+
+real	0m0,061s
+user	0m0,028s
+sys	0m0,016s
+
+vulnCLANGrelro
+
+real	0m0,063s
+user	0m0,036s
+sys	0m0,010s
+
+vulnCLANGfortify
+vuln.c:20:2: warning: ignoring return value of function declared with 'warn_unused_result' attribute [-Wunused-result]
+        scanf("%s", word);
+        ^~~~~ ~~~~~~~~~~
+1 warning generated.
+
+real	0m0,087s
+user	0m0,036s
+sys	0m0,022s
+
+secureVuln
+vuln.c: In function ‘loginTry’:
+vuln.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+   20 |  scanf("%s", word);
+      |  ^~~~~~~~~~~~~~~~~
+
+real	0m0,073s
+user	0m0,029s
+sys	0m0,017s
+
+secureVulnCLANG
+vuln.c:20:2: warning: ignoring return value of function declared with 'warn_unused_result' attribute [-Wunused-result]
+        scanf("%s", word);
+        ^~~~~ ~~~~~~~~~~
+1 warning generated.
+
+real	0m0,092s
+user	0m0,051s
+sys	0m0,007s
