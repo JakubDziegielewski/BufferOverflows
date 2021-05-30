@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-//gcc -o vuln vuln.c -fno-stack-protector -no-pie        --attack with: perl exploit.perl |./vuln (successful)
-//gcc -o vuln_withStackProtector vuln.c -fstack-protector -no-pie       --attack with: perl exploitWithStackProtector.perl|./vuln_withStackProtector (not successful)
-//gcc -o vuln_withPie vuln.c -fno-stack-protector -pie      --attack with: perl exploitWithPie.perl |./vuln_withPie (not successful)
-//clang -o vulnCLANG vuln.c     --attack with:  perl exploitclang.perl |./vulnCLANG (successful)
-//clang -o vulnCLANGstackprotector vuln.c -fstack-protector
-//clang -o vulnCLANGpicpie vuln.c -fPIC -pie       --attack with perl exploitclangPicPie.perl |./vulnCLANGpicpie (not successful)
+#include <time.h>
+
 char password[16]="Secr3tP4ssWord";
 
 void success(){
@@ -26,7 +22,17 @@ int loginTry(){
 	return(strcmp(password, word));
 
 }
+
+double what_time_is_it()
+{
+    struct timespec now;
+    clock_gettime(CLOCK_REALTIME, &now);
+    return now.tv_sec + now.tv_nsec*1e-9;
+}
+
+
 int main(){
+	double usedTime=what_time_is_it();
 	int result=1;
 	while(result!=0){
 	result=loginTry();
@@ -35,5 +41,7 @@ int main(){
 	else
 		fail();
 	}
+	usedTime=what_time_is_it()-usedTime;
+        printf("%f\n", usedTime);
 	return 0;
 }
