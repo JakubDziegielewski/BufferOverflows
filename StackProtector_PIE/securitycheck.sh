@@ -2,7 +2,7 @@
 echo "vuln"
 checksec --file=vuln
 printf "\n"
-echo" vulnCLANG"
+echo "vulnCLANG"
 checksec --file=vulnCLANG
 printf "\n"
 echo "vuln_withPie"
