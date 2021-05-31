@@ -9,7 +9,7 @@ echo "vuln_withPie"
 time gcc -o vuln_withPie vuln.c -fno-stack-protector -pie
 printf "\n"
 echo "vuln_withRelro"
-time gcc -o vuln_witRelro vuln.c -fno-stack-protector -no-pie -g -Wl,-z,relro,-z,now
+time gcc -o vuln_withRelro vuln.c -fno-stack-protector -no-pie -g -Wl,-z,relro,-z,now
 printf "\n"
 echo "vuln_withFortify"
 time gcc -o vuln_withFortify vuln.c -fno-stack-protector -no-pie -D_FORTIFY_SOURCE=2 -g -O2
